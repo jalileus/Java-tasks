@@ -21,8 +21,7 @@ class DocumentParserTest {
     @Test
     void testParseValidContract() throws IOException, MissingFieldException, InvalidDocumentTypeException {
         String filePath = "C:\\Users\\Jalal\\OneDrive\\Desktop\\java\\json-parse\\contract.json";
-        DocumentParser parser = new DocumentParser();
-        Document document = parser.parse(filePath);
+        Document document = DocumentParser.parse(filePath);
 
         assertNotNull(document);
         assertTrue(document instanceof Contract);
