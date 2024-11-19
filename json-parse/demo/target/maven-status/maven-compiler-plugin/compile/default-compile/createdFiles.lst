@@ -1,0 +1,8 @@
+com\example\documents\Resume.class
+com\example\exceptions\InvalidDocumentTypeException.class
+com\example\parser\DocumentParser.class
+com\example\documents\Contract.class
+com\example\exceptions\MissingFieldException.class
+com\example\library_package\Library.class
+com\example\documents\Receipt.class
+com\example\documents\Document.class
