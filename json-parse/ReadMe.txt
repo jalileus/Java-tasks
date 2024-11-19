@@ -1,0 +1,1 @@
+`note: in case you need to run the tests, you have to change the paths of the files.json since it has paths depending on my machine, moreover all the test has been checked and the resualt are somewhere in folder`
